@@ -1,0 +1,33 @@
+{
+  "name": "svelte-boilerplate",
+  "version": "1.0.0",
+  "description": "Svelte Boilerplate",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint --cache --ignore-path .gitignore src",
+    "lint:fix": "eslint --cache --fix --ignore-path .gitignore src",
+    "dev": "rollup -c -w & sirv public -D; kill $!",
+    "build": "rollup -c",
+    "start": "sirv public"
+  },
+  "author": "David \"Cherry\" Trapp",
+  "license": "MIT",
+  "devDependencies": {
+    "@rollup/plugin-node-resolve": "^13.3.0",
+    "eslint": "^8.19.0",
+    "eslint-config": "^0.3.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^6.0.0",
+    "eslint-plugin-react": "^7.30.1",
+    "eslint-plugin-svelte3": "^4.0.0",
+    "rollup": "^2.76.0",
+    "rollup-plugin-css-only": "^3.1.0",
+    "rollup-plugin-svelte": "^7.1.0",
+    "sirv-cli": "^2.0.2",
+    "standard": "^17.0.0",
+    "svelte": "^3.49.0"
+  },
+  "type": "module"
+}

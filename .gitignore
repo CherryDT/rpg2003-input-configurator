@@ -1,0 +1,6 @@
+node_modules/
+.eslintcache
+.DS_Store
+.env
+public/build/
+package-lock.json
