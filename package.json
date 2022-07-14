@@ -1,7 +1,7 @@
 {
-  "name": "svelte-boilerplate",
+  "name": "rpg2003-input-configurator",
   "version": "1.0.0",
-  "description": "Svelte Boilerplate",
+  "description": "Allows configuration of keyboarad/joypad mappings in RPG Maker 2003",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
