@@ -91,6 +91,8 @@
   }
 </style>
 
+<a style="display: block; float: right;" href="https://github.com/CherryDT/rpg2003-input-configurator">GitHub</a>
+
 <h1 style="margin-bottom: 0;">RM2k3 Input Configurator</h1>
 <h6 style="margin-top: 0;">By <a href="https://cherrytree.at/about">Cherry</a></h6>
 
